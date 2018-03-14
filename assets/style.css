@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .bg-light {
+     background-color: rgb(0,128,128) !important;
+ }
+
+
+ 
+
+
