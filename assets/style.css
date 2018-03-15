@@ -40,7 +40,7 @@
  }
  body{
    font-family: 'Lato', sans-serif;
-   background: url(../images/texture2.jpg);
+   background: url(../images/cool.jpg);
    height: 100%; 
    
 
@@ -61,7 +61,7 @@
    font-size: 2em;
    margin: 0 auto;
    position: relative;
-   color: url(../images/texture2.jpg);
+   color: url(../images/cool.jpg);
    transform-style: preserve-3d;
    perspective: 400;
    z-index: 1;
@@ -114,7 +114,7 @@
  }
 
  #myFooter {
-    background-color: rgb(0,128,128);
+    background-color: rgb(0,80,80);
     color: white;
     padding-top: 30px;
     opacity: 0.7;
@@ -287,7 +287,29 @@ h1 {
     text-decoration: none;
    
   }
- 
+
+  .form-inline {
+      float: right;
+      padding-top: 25px;
+  }
+
+  p {
+      font-size: 15px;
+  }
+
+  #icon {
+    height: 45px;
+    widows: 45px;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.btn-primary {
+    opacity: 2;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    background-color: rgb(0,80,80);
+    border: rgb(0,80,80);
+}
    
     
 
