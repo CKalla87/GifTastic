@@ -1,118 +1,107 @@
 <!DOCTYPE html>
 <html ln="us-en">
-    <head>
-        <?xml version="1.0" encoding="utf-8"?>
-        <meta charset="UTF-8">
-        <title>Gif Tastic</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="assets/style.css">
-    </head>
-    <body>
-        <div id="wrap">
-        <!--Grid Model-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 nopadding">
-                     <!--Nav Bar-->
-                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                         <!--Head Logo-->
-                         <div class="foo">
-                            <span class="letter" data-letter="G">G</span>
-                            <span class="letter" data-letter="I">I</span>
-                            <span class="letter" data-letter="F">F</span>
-                            <span class="letter" data-letter="T">T</span>
-                            <span class="letter" data-letter="A">A</span>
-                            <span class="letter" data-letter="S">S</span>
-                            <span class="letter" data-letter="T">T</span>
-                            <span class="letter" data-letter="I">I</span>
-                            <span class="letter" data-letter="C">C</span>
-                        </div>
-                        
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                  <ul class="navbar-nav">
-                                    <li class="nav-item active">
-                                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="https://mashable.com/2012/10/19/animated-gif-history/#htpfAUqC4iqL">Gif History</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="https://giphy.com/explore/youre-awesome">Awesome Gif</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Dropdown link
-                                      </a>
-                                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="https://www.pinterest.com/explore/cat-memes/">Cat Meme</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="https://giphy.com/categories/music">Musical Gif</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Application_programming_interface">API</a>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </nav>
-                              
-
-                </div>
-
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                    <form class="form-inline">
-                            <div class="form-group mb-2">
-                              <label for="staticEmail2" class="sr-only"></label>
-                              <input type="text" readonly class="form-control-plaintext" id="staticEmail2">
-                            </div>
-                            <div class="form-group mx-sm-3 mb-2">
-                              <label for="inputPassword2" class="sr-only"></label>
-                              <input type="password" class="form-control" id="inputPassword2">
-                            </div>
-                            <button type="submit" class="btn btn-primary mb-2">Click The Button</button>
-                          </form>
-                  
-
+  <head>
+    <!---Links-->
+    <meta charset="UTF-8">
+    <title>Gif Tastic</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="favicon/image">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <!--Grid Model-->
+    <div id="wrap">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 nopadding">
+            <!--Nav Bar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <!--Head Logo Design-->
+              <div class="foo">
+                <span class="letter" data-letter="G">G</span>
+                <span class="letter" data-letter="I">I</span>
+                <span class="letter" data-letter="F">F</span>
+                <span class="letter" data-letter="T">T</span>
+                <span class="letter" data-letter="A">A</span>
+                <span class="letter" data-letter="S">S</span>
+                <span class="letter" data-letter="T">T</span>
+                <span class="letter" data-letter="I">I</span>
+                <span class="letter" data-letter="C">C</span>
               </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    
-  
-                </div>
-  
+              <!--Navbar List Items-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="https://ckalla87.github.io/Responsive-Portfolio/">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://mashable.com/2012/10/19/animated-gif-history/#htpfAUqC4iqL">Gif History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://www.historyworld.net/wrldhis/PlainTextHistories.asp?historyid=ab11">Technology In History</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown link</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="https://www.pinterest.com/explore/cat-memes/">Cat Meme</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="https://giphy.com/categories/music">Musical Gif</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Application_programming_interface">API</a>
+                    </div>
+                  </li>
+                </ul>
               </div>
-
-                    
-    
-</div>
-</div>
-<footer id="myFooter" class="fixed-bottom">
-       
-       
-        <div class="footer-copyright">
-                <a href="https://ckalla87.github.io/Responsive-Portfolio/"><img id="icon" src="images/mysite.png" alt=""></a> | <a href="https://github.com/CKalla87/Responsive-Portfolio"><img id="icon" src="images/git.png" alt=""></a>
-            <p>&#64; Copyright 2018 GifTastic</p>
+            </nav>
+          </div>
         </div>
-    </footer>
-            
-
-            
-
-
         
+        <!--Bootstrap Grid/Button Input-->
+        <div class="row">
+          <div class="col-md-12" id="movieName">
+  
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-offset-6" id="input">
+            <form class="form-inline">
+              <div class="form-group mb-2">
+                <label for="staticEmail2" class="sr-only"></label>
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail2">
+              </div>
+              <div class="form-group mx-sm-3 mb-2">
+                <label for="userInput" class="sr-only"></label>
+                <input type="text" class="form-control" id="userInput" placeholder="Input Movie">
+              </div>
+              <button type="submit" class="btn btn-primary mb-2" id="userButton">Click The Button</button>
+            </form>
+          </div>
+        </div>
+        <!--Empty Div For Input-->
+        <div class="row">
+          <div class="col-md-12" id="gifOutput">
 
-
-        <script tabindex="text/javascript" src="javascript/app.js"></script>
-    </body>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Footer-->
+    <footer id="myFooter" class="fixed-bottom">
+      <div class="footer-copyright">
+        <a href="https://github.com/CKalla87"><img id="icon" src="images/mysite.png" alt=""></a><a href="https://github.com/CKalla87/Responsive-Portfolio"><img id="icon" src="images/git.png" alt=""></a>
+        <p>&#64; Copyright 2018 GifTastic</p>
+      </div>
+    </footer>
+    
+    <!--Java Script Link-->
+    <script tabindex="text/javascript" src="javascript/app.js"></script>
+  
+  </body>
 </html>
