@@ -1,6 +1,8 @@
 # GifTastic
 GifTastic utilizes basic API's to pull in different gifs
 
+https://ckalla87.github.io/GifTastic/
+
 1. This is a movie Gif Search.
 
 2. You will start with 9 different Gif image buttons to choose from.
@@ -11,7 +13,7 @@ GifTastic utilizes basic API's to pull in different gifs
 
 5. You can also click on the same image to stop the animation.
 
-6. In the input box labeled ìInput Movieî you can search whichever movie you would like and then hit the ìSubmitî button.
+6. In the input box labeled ‚ÄúInput Movie‚Äù you can search whichever movie you would like and then hit the ‚ÄúSubmit‚Äù button.
 
 7. Once you hit submit you will now have a new button at the top of your list to choose 10 images from.
    
